@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.news{
+  background-color:greenyellow ;
+}
+.maindiv{
+  font-family: arial;
+  background-color:greenyellow;
+  margin-top: 35px;
+}
+.header{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+.title{
+  background-color:green;
+}
+.title{
+  font-size: 20px;
+}
+.author {
+  color:black;
+  font-size: 25px;
+}
