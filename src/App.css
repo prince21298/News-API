@@ -3,25 +3,50 @@
   padding: 0px;
 }
 .news{
-  background-color:greenyellow ;
+  background-color:transparent ;
 }
 .maindiv{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
   font-family: arial;
   background-color:greenyellow;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .header{
+  padding: 8px;
+  border: ridge;
+  font-size: 30px;
   background-color: black;
   text-align: center;
   color: white;
 }
 .title{
-  background-color:green;
+  padding: 8px;
+  border: ridge;
+  font-size: 30px;
+  background-color:rgb(14, 194, 14);
 }
 .title{
   font-size: 20px;
 }
 .author {
-  color:black;
+  color:grey;
   font-size: 25px;
+}
+
+.img{
+    border: ridge;
+    width: 70%;
+    margin-left: '30px';
+}
+button {
+  border: ridge;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 50%;
+  font-size: 15px;
 }

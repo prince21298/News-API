@@ -53,11 +53,12 @@ export default class App extends Component {
             <h2 className="title" style={{textAlign:'left'}}>
               {item.title}
             </h2>
-            <img src={item.urlToImage} style={{width:'60%'}}/>
+            <img className='img' src={item.urlToImage}/>
             <p className="author"><b>{item.author}</b></p>  
             <p>{item.description}</p><br/>
             <p>{item.publishedAt}</p>
-            <a style={{background:'black'}} href={item.url}><button><b>Read More...</b></button></a>
+            <a className='readmore' href={item.url}><button><b>Read More...</b></button></a>
+            <br/>
           </div>
         })}
       </div>
